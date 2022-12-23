@@ -6,7 +6,12 @@ public class Car extends Vehicle {
     private String type;
     private int doors;
     private int gears;
-    public boolean isManual;
+
+    public boolean isManual() {
+        return isManual;
+    }
+
+    private boolean isManual;
     private int currentGear;
     private int seats;
 

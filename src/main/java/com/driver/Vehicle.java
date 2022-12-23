@@ -1,12 +1,12 @@
 package com.driver;
 
 public class Vehicle {
+    public String getName() {
+        return name;
+    }
 
-    public String name;
-
-
-
-    public int currentSpeed;
+    private String name;
+    private int currentSpeed;
 
 
 
